@@ -10,6 +10,4 @@ git clone https://github.com/0str1ch/life-lessons.git
 ```
 
 ### How to deploy it
-```
-now
-```
+Update the `now.json` file with your domain details, and then run `now` to deploy it to Now.
