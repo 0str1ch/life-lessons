@@ -8,3 +8,8 @@ Deployed to Now and available here: [https://life-lessons.now.sh](https://life-l
 ```
 git clone https://github.com/0str1ch/life-lessons.git
 ```
+
+### How to deploy it
+```
+now
+```
