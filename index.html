@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
         function genMessage() {
-            var randNum = Math.floor(Math.random() * 8) + 1;
-            document.getElementById("shitty").innerHTML = translations[randNum];
+            var randNum = Math.floor(Math.random() * 10) + 1;
+            document.getElementById("translation").innerHTML = translations[randNum];
         }
 
         //quote array
@@ -19,10 +19,12 @@
             "Sei keine beschissene Person.",
             "Vær ikke en shitty person.",
             'No seas una persona de mierda.',
+            'એક shitty વ્યક્તિ ન બનો.',
             'Ne sois pas une personne de merde.',
             'Kaua e waiho he tangata whakahihi.',
             "Ikke vær en skitne person.",
             'おっぱい人にならないでください。',
+            'एक शर्मीली व्यक्ति मत बनो।',
             "Don't be a shitty person."
         ];
     </script>
@@ -421,7 +423,7 @@
     <main class="layoutWrapper">
         <article class="layoutInner">
             <div class="message">
-                <h1 id="shitty" class="messageText">
+                <h1 id="translation" class="messageText">
                     Don't be a shitty person.
                 </h1>
             </div>

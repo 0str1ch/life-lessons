@@ -1,6 +1,9 @@
 {
-    "version": 2,
-    "builds": [
-      { "src": "*.html", "use": "@now/html-minifier" }
-    ]
-  }
+  "version": 2,
+  "name": "life-lessons",
+  "alias": "life-lessons",
+  "builds": [{
+    "src": "*.html",
+    "use": "@now/html-minifier"
+  }]
+}
